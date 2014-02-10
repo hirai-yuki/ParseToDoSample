@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AFB9929E18A88257001BE63E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCA0D0218A863C800606B69 /* Parse.framework */; };
 		AFCA0CCE18A863A000606B69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCA0CCD18A863A000606B69 /* Foundation.framework */; };
 		AFCA0CD018A863A000606B69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCA0CCF18A863A000606B69 /* CoreGraphics.framework */; };
 		AFCA0CD218A863A000606B69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCA0CD118A863A000606B69 /* UIKit.framework */; };
@@ -62,7 +61,6 @@
 		AFCA0CF418A863A000606B69 /* ParseToDoSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ParseToDoSampleTests-Info.plist"; sourceTree = "<group>"; };
 		AFCA0CF618A863A000606B69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AFCA0CF818A863A000606B69 /* ParseToDoSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParseToDoSampleTests.m; sourceTree = "<group>"; };
-		AFCA0D0218A863C800606B69 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		AFCA0D0418A863DD00606B69 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		AFCA0D0618A863E400606B69 /* libsystem_stats.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsystem_stats.dylib; path = usr/lib/system/libsystem_stats.dylib; sourceTree = SDKROOT; };
 		AFCA0D0818A863EC00606B69 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -84,7 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFB9929E18A88257001BE63E /* Parse.framework in Frameworks */,
 				AFCA0D1718A8641200606B69 /* CoreLocation.framework in Frameworks */,
 				AFCA0D1518A8640D00606B69 /* StoreKit.framework in Frameworks */,
 				AFCA0D1318A8640800606B69 /* QuartzCore.framework in Frameworks */,
@@ -145,7 +142,6 @@
 				AFCA0D0818A863EC00606B69 /* SystemConfiguration.framework */,
 				AFCA0D0618A863E400606B69 /* libsystem_stats.dylib */,
 				AFCA0D0418A863DD00606B69 /* CFNetwork.framework */,
-				AFCA0D0218A863C800606B69 /* Parse.framework */,
 				AFCA0CCD18A863A000606B69 /* Foundation.framework */,
 				AFCA0CCF18A863A000606B69 /* CoreGraphics.framework */,
 				AFCA0CD118A863A000606B69 /* UIKit.framework */,
