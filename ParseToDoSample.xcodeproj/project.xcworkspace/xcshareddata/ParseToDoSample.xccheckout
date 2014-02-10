@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C8EEA30B-AA55-4499-9F17-44FF25C71B31</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ParseToDoSample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F0D5C03C-517E-4F9F-92C9-F1E515B6B7DE</key>
+		<string>ssh://github.com/hirai-yuki/ParseToDoSample.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ParseToDoSample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F0D5C03C-517E-4F9F-92C9-F1E515B6B7DE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/hirai-yuki/ParseToDoSample.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F0D5C03C-517E-4F9F-92C9-F1E515B6B7DE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F0D5C03C-517E-4F9F-92C9-F1E515B6B7DE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ParseToDoSample</string>
+		</dict>
+	</array>
+</dict>
+</plist>
