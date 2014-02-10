@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AFB9929E18A88257001BE63E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCA0D0218A863C800606B69 /* Parse.framework */; };
 		AFCA0CCE18A863A000606B69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCA0CCD18A863A000606B69 /* Foundation.framework */; };
 		AFCA0CD018A863A000606B69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCA0CCF18A863A000606B69 /* CoreGraphics.framework */; };
 		AFCA0CD218A863A000606B69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCA0CD118A863A000606B69 /* UIKit.framework */; };
@@ -20,7 +21,6 @@
 		AFCA0CEF18A863A000606B69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCA0CD118A863A000606B69 /* UIKit.framework */; };
 		AFCA0CF718A863A000606B69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFCA0CF518A863A000606B69 /* InfoPlist.strings */; };
 		AFCA0CF918A863A000606B69 /* ParseToDoSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA0CF818A863A000606B69 /* ParseToDoSampleTests.m */; };
-		AFCA0D0318A863C800606B69 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCA0D0218A863C800606B69 /* Parse.framework */; };
 		AFCA0D0518A863DD00606B69 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCA0D0418A863DD00606B69 /* CFNetwork.framework */; };
 		AFCA0D0918A863EC00606B69 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCA0D0818A863EC00606B69 /* SystemConfiguration.framework */; };
 		AFCA0D0B18A863F200606B69 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCA0D0A18A863F200606B69 /* MobileCoreServices.framework */; };
@@ -84,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFB9929E18A88257001BE63E /* Parse.framework in Frameworks */,
 				AFCA0D1718A8641200606B69 /* CoreLocation.framework in Frameworks */,
 				AFCA0D1518A8640D00606B69 /* StoreKit.framework in Frameworks */,
 				AFCA0D1318A8640800606B69 /* QuartzCore.framework in Frameworks */,
@@ -95,7 +96,6 @@
 				AFCA0D0518A863DD00606B69 /* CFNetwork.framework in Frameworks */,
 				AFCA0CD018A863A000606B69 /* CoreGraphics.framework in Frameworks */,
 				AFCA0CD218A863A000606B69 /* UIKit.framework in Frameworks */,
-				AFCA0D0318A863C800606B69 /* Parse.framework in Frameworks */,
 				AFCA0CCE18A863A000606B69 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +429,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/hiraiyuki/Desktop/ParseToDoSample,
+					/Users/hiraiyuki/projects/CM/ParseToDoSample,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ParseToDoSample/ParseToDoSample-Prefix.pch";
@@ -450,6 +451,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/hiraiyuki/Desktop/ParseToDoSample,
+					/Users/hiraiyuki/projects/CM/ParseToDoSample,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ParseToDoSample/ParseToDoSample-Prefix.pch";
@@ -524,6 +526,7 @@
 				AFCA0CFE18A863A000606B69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFCA0CFF18A863A000606B69 /* Build configuration list for PBXNativeTarget "ParseToDoSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +535,7 @@
 				AFCA0D0118A863A000606B69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
